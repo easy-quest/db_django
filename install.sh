@@ -2,12 +2,6 @@
 
 read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 
-## A basic summary of my sales report
-# echo Here is a summary of the sales data:
-# echo ====================================
-# echo
-# cat /dev/stdin | cut -d' ' -f 2,3 | sort
-
 # Basic function
 print_something () {
     echo Hello I am a function
